@@ -10,8 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>areaStat</artifactId>
-    <dependencies>
 
+    <dependencies>
         <dependency>
             <groupId>com.itbys</groupId>
             <artifactId>commons</artifactId>
@@ -37,6 +37,7 @@
             <artifactId>scala-library</artifactId>
         </dependency>
     </dependencies>
+
     <build>
         <!-- 声明并引入子项目共有的插件【插件就是附着到Maven各个声明周期的具体实现】 -->
         <plugins>
@@ -55,8 +56,6 @@
                 </configuration>
             </plugin>
         </plugins>
-
-
     </build>
 
 
